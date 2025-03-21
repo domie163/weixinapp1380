@@ -1,0 +1,154 @@
+
+page {
+	/* === 颜色变量 === */
+	/* 基本色 */
+	--color_red: #FF0036;
+	--color_orange: #fca216;
+	--color_yellow: #fcca16;
+	--color_green: #09BB07;
+	--color_cyan: #26d2ff;
+	--color_blue: #38f;
+	--color_purple: #7f39e8;
+
+	--color_black: #373737;
+	--color_white: #fff;
+	--color_grey: #6a737d;
+	--color_light: #F9F9F9;
+	--color_dark: #666;
+
+
+	/* 主题色 */
+	--color_error: #FF0036;
+	--color_error_b: #d10000;
+	--color_error_h: #ff3237;
+	--color_warning: #fca216;
+	--color_warning_b: #ff8200;
+	--color_warning_h: #fca248;
+	--color_success: #09BB07;
+	--color_success_b: #2F9833;
+	--color_success_h: #3bbb39;
+	--color_info: #26d2ff;
+	--color_info_b: #15baf8;
+	--color_info_h: #58e6ff;
+	// --color_primary: red;
+	--color_primary: #22b8b8;
+	--color_primary_b: #fcca16;
+	--color_primary_h: #51a6ff;
+	--color_default: #666;
+	--color_default_b: #444;
+	--color_default_h: #999;
+
+
+	/* 场景色 */
+	--color_base: #373737;
+	--color_title: #000;
+	--color_subtitle: #373737;
+	--color_describe: #666;
+	--color_paragraph: #666;
+	--color_tip: #6a737d;
+	--color_border: #dfe2e5;
+	--color_mask: rgba(0, 0, 0, 0.4);
+	--color_shadow: rgba(7, 17, 27, 0.1);
+	
+	--bg_black: #24292e;
+	--bg_grey: #efeff4;
+	--bg_white: #FDFDFD;
+	--bg_brown: #E5DDCC;
+	
+	/* === 其他 === */
+	/* 透明度 */
+	--opacity_disabled: 0.7;
+
+	/* 渐变 */
+	--line_red: linear-gradient(135deg, #FF5A6A 0%, #f12f04 100%);
+	--line_yellow: linear-gradient(135deg, rgb(252, 207, 49) 10%, rgb(245, 85, 85) 100%);
+	--line_green: linear-gradient(135deg, rgb(255, 247, 32) 10%, rgb(60, 213, 0) 100%);
+	--line_blue: linear-gradient(135deg, rgb(94, 252, 232) 10%, rgb(115, 110, 254) 100%);
+	--line_purple: linear-gradient(135deg, #EE9AE5 10%, #5961F9 100%);
+
+	--line_red-1: linear-gradient(135deg, #fffddc 0%, #ff4c4c 20%, #fa2aa4 100%);
+	--line_red-2: linear-gradient(135deg, #ffe7dc 0%, #ff7a4c 20%, #fa2a7d 100%);
+	--line_yellow-1: linear-gradient(135deg, #ffe4dc 0%, #faa02a 20%, #ff4c5d 100%);
+	--line_yellow-2: linear-gradient(135deg, #fffadc 0%, #faf32a 20%, #ff7f4c 100%);
+	--line_green-1: linear-gradient(135deg, #dcf9ff 0%, #e8ff4c 20%, #2afac2 100%);
+	--line_green-2: linear-gradient(135deg, #fff7dc 0%, #4cff6e 20%, #46c4fe 100%);
+	--line_blue-1: linear-gradient(135deg, #dcfff9 0%, #2afadf 20%, #4c83ff 100%);
+	--line_blue-2: linear-gradient(135deg, #dcffe0 0%, #2accfa 20%, #b14cff 100%);
+	--line_purple-1: linear-gradient(135deg, #ffe8dc 0%, #ff4cb5 20%, #cc2afa 100%);
+	--line_purple-2: linear-gradient(135deg, #ffe8dc 0%, #ec4cff 20%, #652afa 100%);
+
+	/* === 字体样式 === */
+	--font_family_number: "Helvetica Neue", helvetica;
+	--font_family_text: arial, sans-serif;
+
+	/* === 尺寸 === */
+	/* 常用大小 */
+	--font_mini: 0.75rem;
+	--font_small: 0.875rem;
+	--font_base: 1rem;
+	--font_big: 1.25rem;
+	--font_larger: 1.5rem;
+	--font_huge: 1.75rem;
+
+	/* 场景大小 */
+	--font_title: 1.25rem;
+	--font_subtitle: 1rem;
+	--font_describe: 1rem;
+	--font_paragraph: 1rem;
+	--font_tip: 0.75rem;
+
+	/* 图片尺寸 */
+	--img_size_mini: 1.5rem;
+	--img_size_small: 2rem;
+	--img_size_base: 3rem;
+	--img_size_big: 4.5rem;
+	--img_size_larger: 6rem;
+	--img_size_huge: 8rem;
+
+	/* 圆角 */
+	--radius_small: 0.25rem;
+	--radius_base: 0.5rem;
+	--radius_big: 1rem;
+	--radius_circle: 50%;
+
+	/* 高度 */
+	--height_mini: 1rem;
+	--height_small: 1.5rem;
+	--height_base: 2rem;
+	--height_big: 2.5rem;
+	--height_larger: 3rem;
+
+	/* === 间隔 === */
+	/* 水平间距 */
+	--row_mini: 0.25rem;
+	--row_small: 0.5rem;
+	--row_base: 1rem;
+	--row_big: 1.25rem;
+	--row_larger: 1.5rem;
+
+	/* 垂直间距 */
+	--col_mini: 0.25rem;
+	--col_small: 0.5rem;
+	--col_base: 1rem;
+	--col_big: 1.25rem;
+	--col_larger: 1.5rem;
+
+	/* 填充 */
+	--padding_mini: 0.5rem;
+	--padding_small: 0.75rem;
+	--padding_base: .5rem;
+	--padding_big: 1.25rem;
+	--padding_larger: 1.5rem;
+	--padding_huge: 2rem;
+
+	/* 边距 */
+	--margin_mini: 0.25rem;
+	--margin_small: 0.5rem;
+	--margin_base: 1rem;
+	--margin_big: 1.25rem;
+	--margin_larger: 1.5rem;
+	--margin_huge: 2rem;
+	
+	
+	
+}

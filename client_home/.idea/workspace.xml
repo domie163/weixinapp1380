@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="64d8694a-8a52-4d5c-9884-bd18be118be3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../changsheng-automation/common-report/common-report.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../changsheng-automation/common-report/target/classes/com/changsheng/automation/controller/ScreenReportController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../changsheng-automation/common-report/target/classes/com/changsheng/automation/dao/ScreenReportMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../changsheng-automation/common-report/target/classes/com/changsheng/automation/entity/ScreenReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../changsheng-automation/common-report/target/classes/com/changsheng/automation/service/IScreenReportService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../changsheng-automation/common-report/target/classes/com/changsheng/automation/service/impl/ScreenReportServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../changsheng-automation/common-report/target/classes/mapper/screen-report-mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../changsheng-automation/common-report/target/common-report-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../changsheng-automation/common-report/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../changsheng-automation/common-report/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../changsheng-automation/common-report/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/mini_app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/client_home.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/plugins/port_config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../template/preview/miniappPreview.sh.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../template/preview/miniapp_vue.config.js.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../changsheng-automation/common-deploy/src/main/java/com/changsheng/automation/service/impl/GenTemplateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../changsheng-automation/common-deploy/src/main/java/com/changsheng/automation/service/impl/GenTemplateServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../changsheng-automation/common-deploy/src/main/java/com/changsheng/automation/service/impl/PreviewServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../changsheng-automation/common-deploy/src/main/java/com/changsheng/automation/service/impl/PreviewServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../changsheng-automation/common-sys/src/main/resources/mapper/dev-template-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../changsheng-automation/common-sys/src/main/resources/mapper/dev-template-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../changsheng-automation/common-web/common-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../changsheng-automation/common-web/common-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../changsheng-automation/common-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../changsheng-automation/common-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../changsheng-front/src/view/order/order-handler-list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../changsheng-front/src/view/order/order-handler-list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../changsheng-front/src/view/order/order-publisher-list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../changsheng-front/src/view/order/order-publisher-list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../changsheng-front/src/view/resource/static-resource-template.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../changsheng-front/src/view/resource/static-resource-template.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/plugins/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/plugins/component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/user/info.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/user/info.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/css/diy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/css/diy.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../razor/server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../razor/server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../template/mini_app/home/bootstrap/tpl/pages/xxx/list.vue.vm" beforeDir="false" afterPath="$PROJECT_DIR$/../../../template/mini_app/home/bootstrap/tpl/pages/xxx/list.vue.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../template/mini_app/home/bootstrap/tpl/pages/xxx/table.vue.vm" beforeDir="false" afterPath="$PROJECT_DIR$/../../../template/mini_app/home/bootstrap/tpl/pages/xxx/table.vue.vm" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2FFIfPjvTE5JIfibPCMp6iSRAiL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64d8694a-8a52-4d5c-9884-bd18be118be3" name="Default Changelist" comment="" />
+      <created>1664081507733</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664081507733</updated>
+      <workItem from="1664081509623" duration="308000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

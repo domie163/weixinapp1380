@@ -1,0 +1,1636 @@
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 1200px) {
+    uni-tabbar.uni-tabbar-bottom {
+        position: initial;
+        display: none;
+    }
+
+    uni-page-head {
+        display: none;
+    }
+
+    uni-page-wrapper {
+        height: 100% !important;
+    }
+
+    body {
+        height: 100%;
+    }
+
+    uni-page-body {
+        max-width: 71.25rem;
+    }
+}
+
+.uni-app{
+	background-color: #ffffff;
+}
+
+.flex_c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.flex_sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px;
+	background-color: #a8c572;
+}
+
+
+
+p {
+	img {
+		width: 100%;
+	}
+}
+
+img,image {
+	width: 100%;
+}
+// 分页样式
+.uni-pagination{
+	background-color:#a8c572;
+}
+.uni-pagination .uni-pagination__btn{
+	background-color:#747474 !important ;
+	color: #fff;
+}
+// 底部导航栏
+.uni-tabbar__item{
+	background-color:#ffffff !important;
+	color: #fff;
+	border-right: 2px solid #FFF;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+// 登录页面
+// 登录背景
+.account_login.container,.forgot_account.container{ 
+     background-image:url("/static/img/body_bg.jpg" ) !important;
+     background-size: 100% 100% !important;
+ }
+ // 登录框
+   .account_login.container .wrapper{
+	   background:  #b0c6804d  !important;
+	   width:100%;
+	//    height: 97%;
+	   // margin: 10px auto;
+	   position: absolute;
+	   top: 0;
+   }
+
+// 标题
+.top-sign-title {
+	background-color: #c9e97fa1;
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    /* -webkit-writing-mode: vertical-lr; */
+    /* writing-mode: vertical-lr; */
+    position: relative;
+    top: 42px;
+	   
+   }
+// login
+   .left-top-sign{
+   	color: #ddaa4d !important;
+   	left: 0 !important;
+	border-bottom: 1px solid #849c40;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	margin-top: 78px;
+   }
+   // 欢迎回来
+   .welcome{
+   	color:  #77c9d4 !important;
+   	text-shadow:none !important;
+	display: none;
+   }
+   // 装饰
+.right-top-sign::before,.right-top-sign::after{
+	width: 0 !important;
+}
+// 装饰
+.container .left-bottom-sign{
+	border: none !important;
+}
+// 输入框
+.input-content{
+	margin-top: 10px;
+}
+
+.uni-input{
+	height: 2em !important;
+	border: 1px solid #000000 !important;
+}
+
+// 用户名输入框
+.input-item{
+	background: #afc781 !important;
+	flex-direction: row !important;
+	height: 33px !important;
+	padding: 0 !important;
+}
+// div输入框
+.uni-input-form, .uni-input-wrapper{
+	background-color: #afc781 !important;
+	padding-left: 5px;
+}
+// 用户名字段
+.input-item .tit{
+	width: 35% !important;
+	padding-left:5px ;
+}
+// 登录按钮
+page .container .confirm-btn{
+	background-color: #838353;
+    color: #fff !important;
+    width: 30%;
+    /* border-radius: 0; */
+    position: relative;
+    font-size: 14px;
+    top: 59px;
+    left: 83px;
+    border-radius: 10px;
+}
+.input-item .tit:after{
+	content: ':';
+}
+.uni-input-placeholder{
+	font-size: 13px;
+	color: #544d4d !important
+}
+// 忘记密码按钮
+.forget-section{
+	background-color: #838353;
+    color: #fff !important;
+    text-align: center !important;
+    margin-left: 50px;
+    width: 30%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px !important;
+    border-radius: 10px;
+}
+// 还没有账号
+.account_login .register-section{
+	
+	position: absolute;
+    top: 488px;
+    background-color: #838353;
+    color: #fff !important;
+    height: 40px;
+    left: 80px !important;
+    line-height: 40px;
+    width: 60% !important;
+    border-radius: 10px;
+
+}
+// 马上注册
+.register-section .text{
+    color: #000000 !important;
+}
+
+// 忘记密码页面
+.forgot_account.container .wrapper{
+	background: #b0c6804d  !important;
+	width:100%;
+	// margin: 10px auto;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	
+}
+
+.forgot_account .wrapper .confirm-btn{
+	background-color: #838353;
+    color: #fff !important;
+    width: 30%;
+    border-radius: 0;
+    position: relative;
+    font-size: 14px;
+    top: 0 !important;
+    left: 0  !important;
+    border-radius: 10px;
+}
+
+// .forgot_account.container .wrapper .input-content .input-item{
+// 	background: none !important;
+// }
+
+.is-input-border{
+	background: transparent !important;
+    border: transparent !important;
+}
+
+// 发送按钮
+.forgot_account .btn_send{
+	background-color:#838353;
+		color: #fff !important;
+}
+// 立即注册按钮
+.forgot_account .register-section{
+	position: relative;
+    top: 531px;
+    background-color: #838353;
+    color: #fff !important;
+    height: 40px;
+    line-height: 40px;
+    width: 60% !important;
+    border-radius: 10px;
+    left: 83px !important;
+    // bottom: -2px !important;
+
+}
+
+// 注册页
+#account_register{
+	background-image:url("/static/img/body_bg.jpg" ) !important;
+	background-size: 100% 100% !important;
+}
+// uni-page-wrapper{
+// background-color: #77c9d4 !important;	
+// }
+#account_register .mm_container .row .register_view{
+	background:  #b0c6804d  !important;
+	width:100%;
+	position: relative;
+    top: -5px;
+	
+}
+/* 注册页 头部 ‘注册’ 框 */
+#account_register .title {
+	/* 行内元素转块级元素 */
+	display: block !important;
+	/*字体 颜色 */
+	color: #476269 !important;
+	/* 内 下边距 */
+	padding-bottom: var(--padding_mini) !important;
+	/* 下边框 */
+	border-bottom: 1px solid var(--color_dark) !important;
+
+
+	text-align: center;
+	
+}
+
+#account_register .is-direction-left,
+#account_register  div .col-12 {
+    background-color: #afc781;
+}
+
+#account_register  div .col-12:nth-child(7){
+	height: 150px;
+}
+
+// 备注输入框颜色
+
+
+/* 注册页-注册页内 '立即注册'按钮样式 */
+#account_register .btn_register {
+	/* 登录 按钮 字体摆放位置 */
+	text-align: center !important;
+	
+	/* 登录按钮外边距 */
+	margin: 10px auto !important;
+	
+	/* 宽度 */
+	width: 30%;
+	background-color:#838353 !important;
+		color: #fff !important;
+}
+
+
+/* 注册页-注册页内 '返回登录、忘记密码' 盒子样式 */
+#account_register .btn_all {
+	/* 盒子内子元素浮动 */
+	display: flex;
+	/* 盒子内子元素左右居中摆放  'space-between 左右摆放'*/
+	justify-content: space-around;
+	/* 内边距 */
+	/* padding: 10rpx 10rpx 10rpx 10rpx; */
+	/* 外边距 */
+	/* margin: 10rpx 10rpx 10rpx 10rpx; */
+	color: #476269 !important;
+	font-size: 14px !important;
+	align-content: space-around ;
+	background-color:#838353 !important;
+		color: #fff !important;
+		flex-direction: row;
+		text-align: center;
+		width: 60%;
+		height: 40px;
+		margin: 5px auto;
+		border-radius: 10px
+}
+#account_register .btn_all navigator{
+	margin-left: 15px;
+	line-height: 40px;
+}
+
+
+// 注册页用户名
+.uni-forms-item__inner .uni-forms-item__label{
+	  color: #606266 !important;
+  }
+  .uni-forms-item__inner .uni-forms-item__label::after{
+	  content: ':';
+  }
+  #account_register  .is-required{
+	  display: none;
+  }
+  #account_register .diy_title{
+  	color: #606266;
+  }
+  #account_register .register_view .diy_field{
+	background: none !important;
+  }
+  #account_register .register_view .diy_field .uni-select{
+	border: 1px solid #252525;
+	// background-color: #1014;
+  }
+
+  #account_register .btn_add_img uni-text{
+	width: 100px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #252525; 
+	
+  } 
+  
+  // 首页
+  
+  
+  // 轮播图
+  #home>.swiper{
+	height: 220px;
+	background-image:url("/static/img/banner_bg.png" ) !important;
+	background-size: 100% 100% !important;
+  }
+ #home .swiper_img{
+	   width: 83%;
+	   margin-left: 32px;
+	   position: relative;
+	   top: 2rem;
+	   border: 1px solid #8fab9f;
+ }
+
+// 首页导航栏
+.menu_list .item_menu .menu{
+	// display: flex;
+	// flex-direction: row;
+	// border: 2px solid #77c9d4;
+}
+.menu_list .item_menu .menu image {
+ 	       opacity: 0; 
+		   // // margin-right: 10px;
+		   // position: relative;
+		   // left: 15px;
+ 	   }
+ .menu_list .item_menu .name{
+	   	color:#a8c572;
+	   	font-size: 15px !important;
+	   	// background-color: #476269;
+	   	border-radius: 10%;
+		 // margin-left: 20px;
+	   }
+.menu_list .item_menu:nth-child(1)  {
+   background: url("/static/img/tab_1.png") top center no-repeat !important;
+   background-size:80% !important;
+    
+ }
+.menu_list .item_menu:nth-child(2) {
+   background: url("/static/img/tab_2.png") top center no-repeat !important;
+   background-size: 80% !important;
+ }
+.menu_list .item_menu:nth-child(3)  {
+   background: url("/static/img/tab_8.png") top center no-repeat !important;
+   background-size: 80% !important;
+ }
+ .menu_list .item_menu:nth-child(4)  {
+   background: url("/static/img/tab_6.png") top center no-repeat !important;
+   background-size: 80% !important;
+ }
+.menu_list .item_menu:nth-child(5)  {
+   background: url("/static/img/tab_5.png") top center no-repeat !important;
+   background-size: 80% !important;
+ }
+ #home .menu_list .item_menu:nth-child(6)  {
+   background: url("/static/img/tab_3.png") top center no-repeat !important;
+   background-size: 80% !important;
+ }
+ #home .menu_list .item_menu:nth-child(7)  {
+   background: url("/static/img/tab_7.png") top center no-repeat !important;
+   background-size: 80% !important;
+ }
+ #home  .menu_list .item_menu:nth-child(8)  {
+   background: url("/static/img/tab_4.png") top center no-repeat !important;
+   background-size: 80% !important;
+ }
+ 
+ 
+ #home  .menu_list{
+	border-top: 2px dashed #9ad7bc;
+    border-bottom: 2px dashed #9ad7bc;
+	background-color: #e2e9d4 !important;
+ }
+ // 首页公告栏
+  #home .notice{
+	  width: 80%;
+	  margin: 2px auto;
+	 
+  }
+ .swiper_notice .notice .uni-noticebar{
+ 	background-color: #f7ae5d !important;
+ 	border-radius: 8px;
+ }
+ 
+ .swiper_notice .notice .uni-noticebar .uni-noticebar__content-text,
+ .swiper_notice .notice .uni-noticebar .uniui-sound{
+ 	color: red !important;
+	// font-weight:600;
+	font-size: 16px;
+ }
+ /* 公告列表页  列表框内 公告列表框 */
+ #notice_list  .uni-list-item,#notice_list .data-v-efa7a1e8 {
+ 	/* 背景颜色 */
+ 	background-color: #a8c572 !important;
+ 	
+ 	width: 40%;
+ 	margin: 5px auto 0;
+ 	
+ }
+ #notice_list .data-v-efa7a1e8 .uni-list-item{
+ 	width: 100%;
+ 	margin:  0;
+ }
+ #notice_list  .uni-list-item .uni-list-item__container{
+ 	display: flex;
+ 	flex-direction: column;
+ }
+ #notice_list  .uni-list-item .uni-list-item__container .uni-list-item__content-title{
+ 	color: #476269;
+ 	font-weight: 600;
+ }
+ #notice_list  .uni-list-item .uni-list-item__container  .uni-list-item__extra-text{
+ 	color: #fff;
+ 	margin-left: 10px;
+ 	margin-top: 10px;
+ }
+ // 公告详情页
+ .uni-card__header{
+ 	background-color: #a8c572 !important;
+ 	
+ }
+ .uni-card__header .uni-card__header-title-text{
+ 	color: #f1f1f1 !important;
+ }
+ .uni-card__header .uni-card__header-extra-text{
+ 	color: #fff !important ;
+ }
+ .page_forum .uni-card__content,
+ .page_forum .uni-card__content .list_comment{
+	background-color: #e2e9d4 !important;
+ }
+
+
+ .page_forum .uni-card__content .list_comment .item_comment .comment_box{
+	background-color: #e2e9d4;
+	box-shadow: 1px 1px 4px 1px;
+    margin-top: 10px;
+    border-radius: 4px;
+ }
+
+ .notice_details .uni-card__content{
+ 	background-color: #e2e9d4;
+ 	color: #476269;
+ }
+ .list_com--new .view .text span{
+ 	color:	#333 ;
+ 	font-weight: 500;
+ }
+ 
+ .list_com--new .view .number{
+	color: #526e1c !important;
+ 	font-weight: 500 !important;
+ }
+ 
+ .list_com--new  .box_style{
+ 	border-color: #a2d5f2 !important; 
+ }
+ // 首页新闻模块
+ #home .article_list, #home .article_list .uni-card,#article_list .list {
+	 background-color: #e2e9d4 !important;
+ }
+
+ #home .card-title {
+ 	background: #a8c572!important;
+ 	color: #fff !important;
+ 	padding: 5px 10px;
+ 	border-radius: 10px;
+	box-shadow: 1px 0px 2px 5px #025252;
+ 	// border-bottom: 2px solid #015249 !important;
+	
+	// border-left:  4px solid #015249 !important;
+	// border-right: 4px solid #015249 !important;
+ }
+
+#home .card-title .more{
+  color: #fffaf5 !important;
+  font-weight: 700;
+//  background: url("/static/img/more.png") top center no-repeat !important;
+//  background-size: 100% 100% !important;
+  width:58px;
+  border-radius: 10px;
+  height: 24px;
+  line-height:24px;
+  text-align: center;
+  background-color: #22544885;
+ }
+
+  #home .uni-card .item,
+  #article_list .item{
+	// background-image: url("/static/img/ar.png")  !important;
+	// background-size: 100% 100% !important;
+	  // margin-top: 5px;
+	width: 85%;
+	  // flex-direction: column;
+	  // height: 272px;
+	// padding-left: 0;
+	padding: 24px;
+	flex-direction: row-reverse;
+	box-shadow: 1px 1px 4px 1px #025252;
+	border-radius: 10px;
+	margin-top: 10px;
+  }
+  
+  // 图片
+#home .uni-card .item .image,
+#article_list .item .image{
+	
+	 margin-right: 0px;
+  }
+  #home .uni-card .item .right_block{
+	 padding-right: 15px;
+  }
+  // 标题
+  #home .uni-card .item .top_info,
+  #article_list .item .top_info{
+	  margin-top: 5px;
+	  color: #476269;
+  }
+  // 时间
+  #home .uni-card .item .mid_info ,
+  #article_list .item .mid_info{
+	  margin-top: 5px;
+	  color: #526e1c;
+	  // text-align: right;
+  }
+  // 点击数和点赞
+ #home .uni-card .item .bottom_info,
+ #article_list .item .bottom_info{
+	color: #460000;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 19px;
+    left: 12%;
+	 }
+// 首页新闻更多列表页
+.uni-stat-box{
+	// background-color: #57bc90 !important;	
+}
+// 新闻详情页
+#article_details .div_article {
+	background-color:  #f1f1f1 !important ;
+	border: 2px solid #77c9d4;
+}
+// 标题
+#article_details .div_article .title{
+	color: #015249;
+}
+
+#article_details .div_article .time{
+	color: #fff;
+    text-align: left;
+    margin-left: 92px;
+    background-color: #6e946e !important;
+    width: 123px !important;
+    display: block;
+    border-radius: 2px;
+}
+// 点赞收藏
+#article_details .praise,
+#article_details .collect,#article_details .praise .icon_praise{
+	background-color: #a2b877 !important ;	
+	color: #fff !important;
+}
+#article_details .see{
+	background-color: #a2b877 !important ;
+	color: #fff !important;
+}
+#article_details .pa .link{
+	background-color: #a8c572 !important ;
+	color: #fff !important;
+}
+#article_details .uni-card__header.uni-border-bottom{
+		background-color: #a8c572 !important;
+	}
+
+#article_details .uni-card .uni-card__content .list_comment{
+	background-color: #e2e9d4 !important;
+}
+
+#article_details .uni-card .uni-card__content .list .item{
+	margin-top: 10px;
+	box-shadow: 1px 1px 4px 1px #025252;
+	border-radius: 10px;
+}
+
+.page_article .uni-card .uni-card__content{
+	background-color: #e2e9d4 !important;
+}
+	
+// 评论编辑器
+.toolbar{
+	background-color: #709670 !important;
+	color: #fff
+}
+#editor{
+	border: 2px solid #015249;
+}
+	 // 商城模块
+	 #home .goods_list .uni-card__content--pd{
+	  background-color: #e1e8d3;
+	//   border: 2px solid #77c9d4;
+	 }
+	 .list_goods{
+		  background-color: #f1f1f1;
+		  margin-top: 5px;
+	 }
+	 .list_goods .goods_item{
+		 width: 100% !important;
+		 margin-left: 1px;
+		 margin-right: 1px;
+		 background-color:#e2e9d4;
+		 margin-bottom:3px;
+		 margin-top: 7px;
+		 border-radius: 10px;
+		 box-shadow: 1px 1px 4px 1px #025252;
+	 }
+	 
+	 .list_goods .goods_item image,
+	 .list_goods .goods_item img{
+		 width: 99% !important;
+		 height: 8rem !important;
+	 }
+	  .list_goods .goods_item image{
+	  }
+	 // 标题
+	 .list_goods .goods_item .title{
+		font-size: 14px;
+    	color: #476269;
+    	position: relative;
+    	left: 113px;
+	 }
+	 // 价格
+	 .list_goods .goods_item .price{
+		 color: #ff1212 !important;
+	 }
+	 .list_goods .goods_item .uniui-cart{
+		  color: #ff8600 !important;
+	 }
+	 // 商品详情页
+	 // 价格
+	 #goods_details .price_wrap{
+		 background-color: #a6c371;
+	 }
+	#goods_details .includelittle_goodspic{
+		border: 2px solid #a8c572;
+	}
+	
+		#goods_details .sales{
+			display: none;
+		}
+
+		#goods_details .container .pa .link{
+			background-color: #a8c572;
+			color: #fff;
+		}
+		#goods_details .cart-sub-left{
+			background-color: #a5c170;
+			color: #fff;
+			border-right: 1px solid #fff;
+		}
+	#goods_details .cart-button-right{
+		background-color: #99CC99 !important;
+		margin-right: 2px !important;
+	}
+	// 商品详情页评论区
+	.page_goods .comment_box{
+		background-color: #e2e9d4;
+    	box-shadow: 1px 1px 4px 1px #025252;
+    	margin-top: 10px;
+    	border-radius: 5px;
+	}
+	// 商品详情页标题
+	.page_goods .bar_title{
+		background-color: #a8c572 !important;
+		.title{
+			color:#252525 !important ;
+		}
+	}
+	// 商品详情页添加购物按钮
+	.page_goods .bar_goods_nav .right{
+		margin: 0 !important;
+		margin-right: 0 !important;
+		border-radius: 0 !important;
+		
+	}
+
+	// 购物车页面
+	// 购物车
+
+	 #cart_index .item_cart{
+		// background-image:url("/static/img/cart.png")  !important;
+		// background-size: 100% 100% !important;
+		background-color: #e7eed9;
+		margin-top: 10px !important;
+		padding-top: 20px !important;
+		box-shadow: 1px 5px 7px -4px;
+		border-radius: 10px;
+	 }
+	 #cart_index .bar_settle{
+		 background-color:#c3d4a4 !important;
+	 }
+	#cart_index .bar_settle .right_settle .settle .btn_settle{
+		background-color: #a5c170 !important;
+    	color: #fff !important;
+    	border: 1px solid #a1a1a1;
+    	border-radius: 2px;
+	}
+	// 订单页面
+	
+	#order_list .wt-tabs__container{
+		background-color:#afc781 !important;
+		display: flex !important;
+		justify-content: space-around;
+		
+	}
+	 #order_list .wt-tabs__container .wt-tabs__container-item{
+		  // color: #fff !important;  
+	 }
+	 #order_list .wt-tabs__container-line{
+		 display: none !important;
+	 }
+	 #order_list .item_order{
+		//  background-image:url("/static/img/cart.png")  !important;
+		//  background-size: 100% 100% !important;
+		margin-top: 10px !important;
+		padding-top: 20px !important;
+		background-color: #b0c6804d;
+		box-shadow: 2px 2px 2px #726e6e;
+		border-radius: 1rem;
+		  
+	 }
+
+	 #order_list .item_order .state{
+		color: #479b76 !important;
+	 }
+	 #order_list .item_order .bottom_order{
+		  background-color:#aec7818f !important;
+		  border-radius: 0.3em;
+	 }
+	 #order_list .item_order .btn_del{
+		 background-color:#8ca165 !important;
+		 color: #fff !important;
+		 border-radius: 0;
+		 border: none;
+	 }
+	 
+	// 订单详情页
+	#order_details .state{
+		background-color:#a8c572 !important;
+		color: #fff !important; 
+	}
+	#order_details .contact_info{
+		background-color:#d2dfb7 !important; 
+	}
+	#order_details .btn_refund{
+		 background-color:#a8c572 !important;
+		 color: #fff !important; 
+		 border: none;
+	}
+	 #order_details .goods_list{
+		  background-color:#d2dfb7 !important;
+		  border-bottom: 2px solid #afd367;
+	 }
+	  #order_details .bottom_order{
+		background-color:#d2dfb7 !important;   
+	  }
+	  #order_details .sum_price{
+		background-color:#a8c572 !important;
+		color: #fff !important;   
+	  }
+	 // 自定义模块
+	 .list_diy .uni-card__content {
+		border-radius: 20px;
+		background-color: #dee6d2;
+	 }
+
+	.box_wrap{
+			
+			margin-top: 5px;
+			padding: 0 15px;
+	 }
+	#home .list_com--new .box_wrap .box_style{
+		border: none !important;
+		width: 100% !important;
+		max-width:100% !important;
+		margin:5px auto !important;
+		background-image:url("/static/img/good.png")  !important;
+		background-size: 100% 100% !important;
+		padding: 50px !important;
+		padding-top: 80px !important;
+		padding-left: 91px !important;
+		box-shadow: 1px 1px 4px 1px #025252;
+	}
+	.diy_list  .warp .row{
+		border: none !important;
+		width: 70% !important;
+		max-width:70% !important;
+		margin:5px auto !important;
+		background-image:url("/static/img/good.png")  !important;
+		background-size: 100% 100% !important;
+		padding: 50px !important;
+		padding-top: 80px !important;
+		box-shadow: 1px 1px 4px 1px #025252;
+		border-radius: 6px;
+		margin-top: 10px !important;
+	}
+	#home .list_com--new .box_wrap .box_style:nth-child(even){
+		// margin:5px auto !important;
+	}
+	.list_com--new .box_wrap .box_style .image,.diy_list .warp .row .diy_img{
+		height: 200px;
+		width: 100%
+	}
+	.list_com--new .box_wrap .box_style .image img,
+	.list_com--new .box_wrap .box_style .image image,
+	.diy_list .warp .row  .diy_img img,
+	.diy_list .warp .row .diy_img image{
+		height: 200px !important;
+			width: 100%
+			}
+	.list_com--new .box_wrap .box_style .view ,.diy_list .warp .row .view{
+		// border-bottom:1px dashed #77c9d4;
+	}
+	.list_com--new .box_wrap .box_style .view .diy_field,.diy_list .warp .row .view .diy_field{
+		border: none;
+	}
+	.list_com--new .box_wrap .box_style .view .title,.diy_list .warp .row .view .diy_title{
+		color: #015249 !important;
+		font-weight: 600 !important;
+		// background-color: #57bc90 !important;
+	}
+	.diy_list .warp .row .view .diy_time{
+		color: #015249 !important;
+	}
+// 自定义模块列表页 定制商品首页更多点进去
+   /* 列表样式 */
+  
+.diy_list  .warp {
+	border: 3px solid #e0e7d2;
+    border-bottom: 12px solid #e0e7d2;
+    border-top: 12px solid #e0e7d2;
+    border-radius: 20px;
+    background-color: #e0e7d2 !important;
+		 // background-color: #77c9d4;
+}
+	.diy_list  .btn-primary{
+		background-color: #a8c572 !important;
+		color: #fff !important;
+		width: 92px !important;
+		border-radius: 6px;
+		}
+	.diy_list .wt-tabs__container{
+	background-color: #015249 !important;
+	color: #fff !important;
+	}
+	.diy_list .wt-tabs__container .wt-tabs__container-item{
+		color:  #fff !important;
+		background-color: #8da364;
+
+	}
+	// 自定义模块详情页
+	.diy_detail{
+		background-color: #e0e7d2 !important;
+	}
+	.diy_detail .view{
+		// background-image:url("/static/img/edit.png")  !important;
+		// background-size: 100% 100% !important;
+		padding: 20px !important;
+		border: none !important;
+		margin-top: 10px !important;
+		display: flex;
+		box-shadow: 1px 1px 4px 1px #025252;
+    	border-radius: 6px;
+	}
+	
+.diy_detail .view .diy_title{
+	color: #015249 !important;
+	margin-right: 10px!important;
+	width: 100px;
+}
+.diy_detail .view .diy_title::after{
+	// content: '：';
+}
+.diy_detail .view .diy_field{
+	color: #2e3632 !important;
+	font-weight: 500 !important;
+		
+}
+.diy_detail .view .diy_img{
+	width: 100%;
+	height: 200px;
+}
+.diy_detail .view .diy_img img{
+	width: 100%;
+	height: 100%;
+}
+.diy_detail .time_type{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.diy_detail .container-fluid .col{
+	
+	background-color: #dbeadc;
+   	color: #015249 !important;
+	margin-top: 5px;
+	padding-top: 10px !important;
+	border-top: 1px solid #025252;
+}
+.diy_detail.diy_detail--new .container-fluid-comment--new .btn{
+	background-color:#99cc99 !important;
+}
+.diy_detail.diy_detail--new .comment_title{
+	background-color:#a8c572 !important;
+}
+.btn_publish{
+	background-color:#a2b877 !important;
+}
+// 定制商品详情页定制按钮点进去
+.diy_list_page .list_orderby{
+	display: flex !important;
+	justify-content: center !important;
+}
+.diy_list_page .bar_orderby{
+	background-color: #a8c572 !important;
+	width: 94px;
+}
+// / 编辑页
+.diy_edit .warp .container{
+	background-color: #e2e9d4 !important;
+}
+.diy_edit .warp .container .row-item{
+	// background-image:url("/static/img/edit.png")  !important;
+	// background-size: 100% 100% !important;
+	padding: 10px !important;
+    background-color: #e2e9d4;
+    min-width: 300px !important;
+    border-radius: 6px;
+	box-shadow: 1px 1px 4px 1px #025252;
+}
+
+.diy_edit .warp .container .row-item .diy_text .uni-input-wrapper{
+	background-color: transparent !important;
+}
+
+.diy_edit .uni-select__input-box{
+	background-color: #f4f5eb !important;
+	width: 100% !important;
+	}
+ .diy_edit .row-item .illustration{
+	 margin-bottom: 20px;
+	 top: 0px;
+ }
+ .diy_edit .btn_submit{
+	background-color:#6d9b17 !important; 
+ }
+ .diy_edit .diy_title {
+	 width: 70px;
+ }
+
+// 论坛页面列表
+// 发布按钮
+.page_forum .change{
+	display: flex !important;
+	flex-direction: column-reverse !important;
+}
+
+ .page_forum .change .button{
+	 background-color:#a2b877 !important;
+	 width: 21rem !important;
+ }
+ .page_forum  .list .item{
+	// background-image:url("/static/img/cart.png")  !important;
+	// background-size: 100% 100% !important;
+	background-color: #dce3ce;
+    padding: 20px !important;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px 0px #252525;
+ }
+ // 论坛详情页
+#forum_details .div_forum  .title{
+	color: #476269;
+}
+#forum_details .div_forum .rich_text{
+	font-size: 20rpx;
+}
+#forum_details .aside .time{
+	color: #015249;
+}
+#forum_details .tag{
+	background-color:  #015249 !important;
+	color: #FFF;
+}
+// 描述
+#forum_details .desc::after{
+	content: ':';
+}
+.page_forum .div_forum{
+	background-color: #e0e7d2 !important;
+}
+
+#forum_details .div_forum  .praise,
+#forum_details .div_forum .collect
+{
+	 background-color: #a8c572 !important;
+	 color: #FFF;
+}
+#forum_details>.link{
+	background-color: #a8c572 !important;
+	color: #f1f1f1;
+} 
+// 论坛添加页
+ .pages-forum-view{
+	 	background-color: #77c9d4 !important;
+ }
+ .pages-forum-view .uni-forms-item{
+	//  background-image:url("/static/img/edit.png")  !important;
+	//  background-size: 100% 100% !important;
+	 padding: 10px !important; 
+ }
+ 
+ 
+// 我的
+#user_index .top_user{
+	background-image:url("/static/img/good2.png")  !important;
+	background-size: 100% 100% !important;
+	padding: 30px !important; 
+	display: flex;
+	flex-direction: row-reverse;
+}
+#user_index .top_user .avatar{
+	margin-left: 10px;
+	box-shadow: 0px 0px 4px 2px #cc9933 !important;
+}
+#user_index .list_my{
+	background-color: #a8c572;
+	border-right: 1px solid #fff;
+}
+#user_index .list_my .my_nav{
+	flex-direction: row;
+	padding-left: 5px;
+// border-right: 2px solid #fff;
+}
+
+ #user_index .list_module{
+	  background-color:#b0c6804d  !important;
+ }
+ #user_index .list_module .my_module{
+	
+	width: 80%;
+	margin: 2px auto;
+	position: relative;
+ }
+ #user_index .list_module .my_module::before{
+	content: '';
+    position: absolute;
+    width: 414px;
+    // height: 101px;
+    top: -60px;
+    left: -42px;
+    background: url(/static/img/edit.png) no-repeat !important;
+    background-size: 102% 157% !important;
+
+ }
+
+ // 基本信息
+ #user_info .item_info{
+	// background-image:url("/static/img/edit.png")  !important;
+	// background-size: 100% 100% !important; 
+	background-color: #e7eed9;
+	padding: 30px;
+ }
+ // 修改密码
+ #user_password{
+	 background-color: #b0c6804d;
+ } 
+ #user_password .button{
+	 background-color:#838353   !important;
+	  color: #fff;
+	  }
+	  
+#user_info .item_info .uni-icons{
+	color: #77c9d4 !important;
+}
+// 收货地址
+#user_address .address_card{
+	// background-image:url("/static/img/ar.png")  !important;
+	// background-size: 100% 100% !important; 
+	border: 1px solid #0002;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #b0c6804d;
+}
+
+.list_address .bar_btn{
+	display: flex !important;
+	flex-direction: column !important;
+}
+
+.list_address .bar_btn> button{
+	flex: 1;
+    height: 45px;
+    margin-top: 10px;
+    min-width: 7rem !important;
+    /* border: #dcdcdc 1px solid; */
+    background-color: #83835385 !important;
+    border-radius: 15px !important;
+	position: relative;
+    left: 114px;
+}
+
+.list_address .btn_show button{
+	background-color: #838353a6 !important;
+}
+
+// 默认按钮
+#user_address .tag_default{
+	background-color:#a8c572 !important;
+	 color: #fff;
+}
+// 新建收货地址按钮
+#user_address .btn_address{
+	background-color:#a8c572 !important;
+	color: #fff !important; 
+}
+// 新建收货地址
+
+#user_address_edit .header{
+	background-color:#a8c572 !important;
+	color: #fff !important; 
+}
+#user_address_edit .name,
+#user_address_edit .phone,
+#user_address_edit .address{
+	// background-image:url("/static/img/edit.png")  !important;
+	// background-size: 100% 100% !important; 
+	background-color: #afc78191;
+    padding: 30px;
+	
+}
+#user_address_edit .btn_save{
+	background-color:#a8c572 !important;
+	color: #fff!important; 
+}
+// 收藏
+#user_collect .item_collect{
+	// background-image:url("/static/img/ar.png")  !important;
+	// background-size: 100% 100% !important;
+	background-color: #b0c6804d; 
+	padding: 20px;
+	box-shadow: 2px 2px 2px #726e6e;
+}
+.my_module div{
+	position: relative !important;
+}
+
+.item_collect .time{
+	color: #282424 !important;
+}
+#user_collect .btn_del{
+	background-color: #8ca165 !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 10px !important;
+    bottom: 2.3rem;
+}
+// 退出按钮
+.page_user--new .btn_logout, .page_user--new .btn_login{
+	background: #8b9b67!important;
+    color: #3c2e1c !important;
+}
+
+.page_user .uni-input-wrapper{
+	background-color: transparent !important;
+}
+
+/*我的列表页 */
+   .diy_table .container {
+     display: flex;
+     align-self: center;
+    
+     flex-direction: row;
+     flex-wrap: wrap;
+	 margin-top: 10px;
+   }
+   // 添加修改按钮
+   .diy_table_tml .container .table_padding_bottom .btn_right,.diy_table_tml .table_padding_top .nav_left{
+   	background: url("/static/img/more.png") top center no-repeat !important;
+   	background-size: 100% 100% !important;
+   	color: #015249 !important;
+   }
+   // 商城用户列表“详情”按钮上面的“删除”按钮
+    .diy_table .delete_a_btn{   
+   	   line-height: 20px;
+   	       text-align: center;
+   	       width: 60px;
+   	       font-size: 12px;
+   	       height: 20px;
+   	       /* display: flex; */
+   	      
+   	       margin: 5px -5px 5px 103px;
+   	    background: url("/static/img/more.png") top center no-repeat !important;
+   	    background-size: 100% 100% !important;
+   	    color: #015249 !important;
+   }
+   .diy_table_tml .container{
+	   background:#77c9d4 !important;
+	     background-size: 100% 100% !important; 
+		 padding-top: 10px;
+   }
+   .diy_table_tml .warp .container {
+	   background:#F1F1F1 !important;
+	   
+   }
+   .diy_table_tml .container .row{
+   	 border: 1px solid  #015249;
+	 width: 42%;
+     min-width: 42%;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+	border-radius: 8px;
+	margin: 10px 5px 0 5px;
+	font-size: 14px;
+	    }
+		
+   .diy_table .col {
+     padding: 5px 0;
+   }
+   .diy_table .uni-common-mt .btn {
+     display: inline-block;
+     width: 100%;
+     text-align: center;
+   	 background-color: #a8c572  !important;
+   }
+   .diy_table .warp .container .diy_img img {
+     width: 100%;
+     height: 100px;
+     padding: 5px 0;
+   }
+   
+  // 编辑页
+   .diy_view.container{
+   	background-color: #77c9d4 !important;
+   }
+   .diy_table .uni-common-mt {
+     width: 100%;
+   }
+   
+   .diy_table .uni-common-mt .btn {
+     font-size: 14px;
+     color: #fff;
+     background: #3885cc;
+     line-height: 2;
+     margin-bottom: 8px;
+     display: inline-block;
+     width: 100%;
+     text-align: center;
+   }
+   .uni-forms-item{
+   	// min-height: 36px;
+   	// line-height: 36px;
+	// background-image:url("/static/img/edit.png")  !important;
+	// background-size: 100% 100% !important; 
+	// padding: 10px !important;
+   }
+   .diy_view .uni-forms-item__label{
+	   width: 100px !important;
+   }
+   .diy_table .diy_text {
+     padding-left: 10px;
+     color: #3885cc;
+     text-decoration: dashed;
+   }
+   
+   .diy_table .container {
+	width: 420px;
+     padding: 8px 0s;
+   }
+   .diy_table.delete_btn {
+     display: inline-block;
+     padding-left: 8px;
+     color: #3885cc;
+     text-decoration: underline;
+   }
+   
+	.diy_table .uni-forms {
+		overflow: visible!important;
+	}
+
+	.diy_view .uni-forms {
+		overflow: visible!important;
+	}
+
+.diy_edit uni-image > img {
+		position: relative !important;
+	}
+
+.diy_table_tml .container .row .col .view{
+	display: flex;
+}
+.diy_table_tml .container .row .col .view .diy_title{
+	white-space: nowrap;
+}
+.diy_table_tml .container .row .col .view .diy_text{
+	margin-left: 0;
+	color:#77c9d4;
+}
+.diy_table_tml .container .row .col .view .diy_img{
+	width: 98%;
+}
+
+
+.div_list_tml .warp .container .row .col .view{
+	display: flex;
+}
+
+.div_list_tml .warp .container .row .col .view .diy_title{
+	margin-right: 10px;
+}
+
+.div_list_tml .warp .container .row .col .view .diy_text{
+	padding-left: 0;
+	color: #333;
+	
+}
+.uni-searchbar{
+	background-color: #fff !important;
+	border: 2px solid #015249 !important;
+	width: 20em;
+    border: 1px solid #015249 !important;
+    margin: 0 auto;
+    border-radius: 0.6em;
+    background-color: #afc781 !important;
+	margin-top: 10px;
+}
+.uni-searchbar .uni-searchbar__box{
+	background-color: #a8c572 !important;
+}
+.uni-searchbar .uni-searchbar__box .uni-icons{
+	color: red !important;
+}
+.uni-searchbar .uni-searchbar__box .uni-searchbar__box-search-input{
+	color: #476269 !important;
+}
+.uni-searchbar .uni-searchbar__cancel{
+	background-color: #a1a165 !important;
+	color: #fafafa !important;
+	padding-left: 0rpx !important; 
+	border-radius: 10px !important ;
+	width: 50px !important;
+	text-align: center !important;
+}
+  .uni-select__input-box{
+	  // background-color: #ffffff !important;
+  }
+  
+
+.uni-body .uni-app--maxwidth uni-page uni-page-wrapper uni-page-body #customized_goods_list .warp .container .row{
+	justify-content:space-around;
+}
+
+.uni-stat__actived{
+	padding-right: 15px;
+}
+
+.uni-select__selector{
+	z-index: 9999 !important;
+	background-color: #a2b877 !important;
+}
+
+.uni-select__selector .uni-select__selector-item{
+	border-bottom: 1px solid #ffffff;
+}
+.uni-stat_select .uni-select .uni-select__input-box{
+	background-color: #a2b877 !important;
+}
+
+.uni-select {
+    background-color: #a8c572;
+}
+
+#home .uni-card .title{
+	font-size: 14px;
+	color: #476269;
+}
+#home .uni-card .diy_field {
+font-size: 22rpx;	
+color: #333;
+}
+
+#home .box_wrap{
+	background-color: #e0e7d2;
+	// box-shadow: 1px 1px 4px 1px !important;
+	margin-top: 10px;
+	border-radius: 6px;
+}
+.diy_list_page .box_style .diy_title{
+	font-size: 24rpx;
+	color: #476269;
+}
+.diy_list_page .box_style .diy_field {
+font-size: 22rpx;	
+color: #333;
+}
+.diy_list_page .box_style .diy_img{
+	width: 100%;
+}
+
+.diy_view .form_button .primary_btn{
+	background-color:  #a8c572 !important;
+	}
+
+#notice_list .uni-list{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color:#f1f1f1 ;
+}
+
+
+.diy_edit .diy_field .diy_img{
+	width: 100%;
+  } 
+  #notice_list .uni-list-item{
+	margin: 20px 20px 10px 20px;
+	background-color: #b7c992 !important;
+    width: 89%;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px 1px #025252;
+  }
+  .diy_title{
+	min-width: 56px;
+   }
+   .row-item{
+	min-width: 350px !important;
+   }
+  
+   .list .item .right_block{
+	min-width: 194px;
+   }
+   .uni-forms-item__label{
+	min-width: 70px !important;
+}
+ html{
+	font-size: 16px !important;
+   }
+   
+   .diy_text_row{
+	   width: 280px;
+   }
+   .diy_title.diy_text_row{
+	   width: 70px;
+   }
+   // 测试列表页
+.table--border{
+	margin-top: 5px;
+}
+.table--border .uni-table-tr{
+	background-color:#e2e9d4 !important ;
+	
+}
+.table--border .uni-table-tr .uni-table-td{
+	color: rgb(12, 12, 12);
+}
+// 答题按钮
+.table--border .answer_link{
+	color: #1bb543;
+}
+// 答题详情页
+#exam_details {
+	background-color: #e2e9d4;
+	font-size: 14px;
+}
+#exam_details .uni-list-cell{
+	width: 100%;
+}
+#exam_details .answer_btn_submit,
+#exam_details .answer_btn_cancel{
+	background-color: #a8c572 !important;
+}
+#exam_details .uni-input-wrapper{
+	background-color: transparent !important;
+}
+#exam_details .answer_input .uni-easyinput{
+	border: 1px solid #025252 !important;
+	border-radius: 6px;
+	width: 300px;
+}
+
+//发布内容
+span .uni-forms-item,
+uni-forms-item .uni-forms-item{
+	background-color: #dce3ce;
+	border-radius: 10px;
+}
+
+span .uni-forms-item .uni-easyinput_content .uni-input-warpper input{
+	background:none;
+}
+span .uni-forms-item .uni-input-wrapper{
+	background-color: transparent !important;
+}
+
+.form_button button{
+	background-color: #a8c572 !important;
+}
+
+// 登录三个授权按钮样式
+
+.Authorization-page{
+	top: 310px !important;
+
+}
+
+.aut-h{
+	background-color: #808051 !important;
+}
+
+.btn-n-box .btn{
+	background-color: #838353d9 !important;
+}
+
+.conter-box{
+	background-color: #d1e89d7a;
+}
+
+.centor{
+	background-color: #c5da93 !important;
+}
+
+.btns .btn{
+	background-color: #838353d9 !important;
+}
